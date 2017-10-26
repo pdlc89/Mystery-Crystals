@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="utf-8">
+
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script> 
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<script src="assets/javascript/game.js"></script>
+	<title>Crystal Game</title>
+
+</head>
+<body>
+	<header>
+		<div id="legend"><h1>Crystal Collector!</h1></div>
+		<h3>Collect the correct amount of crystals and win. Be careful not to exceed quota!</h3>
+	</header>
+
+	<div class="sub-header">
+		<button id="start-button">Start</button>
+		<div id="info">
+				<h2>Your wins: <b id="wins"></b></h2>
+				<h2>Your loses: <b id="loses"></b></h2>
+		  <div id="guesses">
+			<h2>Crystals Needed: <b id="computer-guess"></b></h2>
+			<h2>Your Crystals: <b id="user-tally"></b></h2>
+		  </div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="images">
+			<button class="crystal" value="12"><img src="assets/images/1.png"></button>
+			<button class="crystal" value="5"><img src="assets/images/2.png"></button>
+			<button class="crystal" value="1"><img src="assets/images/3.png"></button>
+			<button class="crystal" value="10"><img src="assets/images/4.png"></button>
+			<button class="crystal" value="24"><img src="assets/images/5.png"></button>
+			<button class="crystal" value="3"><img src="assets/images/6.png"></button>
+		</div>
+	</div>
+	 <footer>
+    <div>
+      Copyright &copy; 2016 Pedro De La Cruz Martinez
+    </div>
+  </footer>
+</body>
+</html>
