@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  background-color: #fdf7ef;
+  background-image: url("C:/Users/Pedro/code/week-4-game/assets/images/crystals-gay.jpg");
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -23,6 +23,10 @@ header {
 }
 h1 {
   margin: 10px;
+  color: #77003f;
+  font-family: Marker Felt, fantasy;
+  border-width: 2px;
+  border-color: #ccc;
 }
 .sub-header {
   max-width: 960px;
@@ -51,10 +55,19 @@ h1 {
 }
 
 h3 {
+  font-family: Georgia, serif;
   text-align: center;
+  border-color: #ccc;
+  color:#77003f;
+}
+h2 {
+  font-family: Georgia, serif;
+  color: #ccc;
 }
 
 #start-button {
+  font-family: Jazz LET, fantasy; 
+  cursor: pointer; 
   margin-top: 67px;
   float: right;
   font-size: 30pt;
@@ -62,9 +75,18 @@ h3 {
   border-radius: 5px;
   border-style: solid;
   border-width: 1px;
-  border-color: #273956;
+  border-color: #ccc;
   padding: 10px;
   margin-right: 40%;
+}
+.crystal {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline:none;
+}
 }
 footer, .push {
   height: 30px;
