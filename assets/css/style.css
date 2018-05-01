@@ -4,7 +4,14 @@ html {
 }
 
 body {
+  max-width: 100%;
   background-image: url("../../assets/images/crystals-gay.jpg");
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-background-size: cover;
+  background-color: black;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -39,10 +46,9 @@ h1 {
   margin-left: 0;
 }
 .container {
-  float: right;
-  width: 100%;
-  max-width: 960px;
-  margin: 0 auto;
+  max-width: 100%;
+  display: inline;
+  margin: auto;
   clear: both;
   flex: 1 0 auto;
   padding: 20px;
@@ -109,4 +115,12 @@ footer {
   border-top: 8px solid #4aaaa5;
   flex: 0;
   padding: 20px;
+}
+
+@media screen and (max-width: 700px) {
+  .crystal {
+    max-width: 30%;
+    max-height: 30%;
+  }
+
 }
