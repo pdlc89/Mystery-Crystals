@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  background-image: url("C:/Users/Pedro/code/week-4-game/assets/images/crystals-gay.jpg");
+  background-image: url("../../assets/images/crystals-gay.jpg");
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -36,7 +36,7 @@ h1 {
 
 #info {
   max-width: 260px;
-  margin-left: 
+  margin-left: 0;
 }
 .container {
   float: right;
