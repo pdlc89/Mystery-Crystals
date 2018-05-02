@@ -3,7 +3,7 @@
 <head>
 
 <meta charset="utf-8">
-
+<meta name="viewport" content="width=device-width" />
 <script
   src="https://code.jquery.com/jquery-3.2.1.min.js"
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
@@ -20,16 +20,19 @@
 	</header>
 
 	<div class="sub-header">
-		<button id="start-button">Start</button>
+		<div class="start">
+		<button id="start">Start</button>
+	</div>
 		<div id="info">
 				<h2>Your wins: <b id="wins"></b></h2>
 				<h2>Your loses: <b id="loses"></b></h2>
 		  <div id="guesses">
 			<h2>Crystals Needed: <b id="computer-guess"></b></h2>
-			<h2>Your Crystals: <b id="user-tally"></b></h2>
+			<h2 >Your Crystals: <b id="user-tally"></b></h2>
 		  </div>
 		</div>
 	</div>
+	<div id="message"></div>
 	<div class="container">
 		<div class="images">
 			<button class="crystal" value="12"><img src="assets/images/1.png"></button>
